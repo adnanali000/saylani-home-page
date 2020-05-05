@@ -1,0 +1,466 @@
+
+body
+{
+    font-family: 'Times New Roman', Times, serif !important;
+     
+}
+
+
+.head{
+
+    display: flex;
+    background-color: royalblue;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.head1
+{
+    flex: 2;
+}
+
+.head2
+{
+    flex: 3;
+    margin-top: 10px;
+    padding: 10px;
+}
+.head3
+{
+    flex: 2;
+}
+/* .head1,.head2,.head3
+{
+   border: 1px solid black;
+} */
+
+.head3 button
+{
+    background-color: white;
+    color: green;
+    margin-top: 10px;
+}
+
+.head1 img
+{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 5px;
+    
+}
+
+.head1 a :hover
+{
+    background-color:royalblue;
+}
+
+#navbarSupportedContent ul
+{
+    margin-left: 300px;
+}
+
+
+
+.dropdown-menu
+{
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-item  {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-menu a:hover {background-color: #ddd;}
+
+.nav-item:hover .dropdown-menu {display: block;}
+
+.nav-item:hover .nav-link {background-color: royalblue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar img
+{
+    margin-left: 70px;
+}
+
+.navbar li a:hover
+{
+    background-color: royalblue;
+    
+    color:white;
+    padding: 5px;
+
+}
+
+
+
+
+.navbar li a:active
+{
+    border-radius: 50px;
+    background-color: royalblue;
+}
+
+.alert-light marquee
+{
+    height: 40px;
+    background-color: royalblue;
+    padding: 10px;
+    color:white;
+}
+
+.alert-light
+{
+    text-align: justify;
+}
+
+.fav
+{
+    margin-left: 48%;
+    
+}
+.para
+{
+    
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+
+
+}
+h2 .intro
+{
+    color: royalblue;
+}
+h2 .duction
+{
+    color: green;
+}
+h2
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+.stats
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: royalblue;
+}
+
+.stats1,.stats2,.stats3,.stats4
+{
+    flex: 2; 
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.stats1 img
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+.stats2 img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.stats2 
+{
+    flex: 2;
+}
+
+.stats3
+{
+    flex: 2;
+}
+.stats3 img
+{
+    width: 50px;
+    height: 50px;
+}
+.stats4
+{
+    flex: 2;
+}
+
+.stats4 img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.green
+{
+    color:lightgreen;
+    font-size: large;
+}
+
+.doing
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.anotherdoing
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.doing1,.doing2,.doing3
+{
+    border: 3px solid white;
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    padding: 20px;
+    color:royalblue;
+    background-color:white;
+
+}
+
+
+
+.mission
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.anothermission
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.mission1,.mission2
+{
+    margin-top: 50px;
+    border: 3px solid white;
+    width: 350px;
+    height: 70px;
+    padding: 20px;
+    background-color: silver;
+}
+
+.mission1 img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.col-sm-8
+{
+    color: royalblue;
+    font-size: large;
+}
+
+
+.mission2 img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.name
+{
+    margin-left: 30px;
+}
+
+.heading-mission
+{
+    font-size: 30px;
+    color:royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.col-sm-4 marquee
+{
+    
+    height: 220px;
+    width: 350px;
+}
+
+
+.gallery
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.gallery1,.gallery2,.gallery3,.gallery4,.gallery5
+{
+    position: relative;
+  width: 200px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .gallery1:hover .overlay {
+    bottom: 0;
+    height: 100%
+  }
+
+  .gallery2:hover .overlay {
+    bottom: 0;
+    height: 100%
+  }
+  .gallery3:hover .overlay {
+    bottom: 0;
+    height: 100%
+  }
+  .gallery4:hover .overlay {
+    bottom: 0;
+    height: 100%
+  }
+  .gallery5:hover .overlay {
+    bottom: 0;
+    height: 100%
+  }
+
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+
+
+.gallery img
+{
+    width: 200px;
+    height: 180px;
+}
+
+.foot
+{
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+    
+}
+
+.foot1
+{
+    flex: 1;
+}
+.foot2
+{
+    flex: 1;
+    text-align: center;
+
+}
+.foot3
+{
+    flex:1;
+    text-align: center;
+}
+.foot1,.foot2,.foot3
+{
+    margin-top: 20px;
+    color: white;
+     
+    height: auto;
+    background-color: slategrey;
+}
+
+.foot1 li
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.foot1 li img
+{
+ width: 20px;
+ height: 20px;
+}
+
+.foot3 img
+{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.alert
+{
+    background-color: darkslategray;
+}
+
+.alert-custom
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: royalblue;
+
+    
+    
+}
+
